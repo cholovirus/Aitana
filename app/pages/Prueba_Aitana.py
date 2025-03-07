@@ -3,7 +3,7 @@ import google.generativeai as genai
 from streamlit_chat import message
 
 # Configurar API de Gemini con tu clave
-GEMINI_API_KEY = "AIzaSyA4V7scBMil8EVpTuHdcrN9GCvCHRYG_aY"  # Reemplaza con tu clave de Google AI
+GEMINI_API_KEY = ""  # Reemplaza con tu clave de Google AI
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Inicializar el modelo de Gemini
